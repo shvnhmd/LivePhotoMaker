@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GIFGenerator/GIFGenerator.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework
+${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework
+${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework

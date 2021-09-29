@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0F6751632599DC82009023E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6751622599DC82009023E1 /* AppDelegate.swift */; };
 		0F6751652599DC82009023E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6751642599DC82009023E1 /* SceneDelegate.swift */; };
-		0F6751672599DC82009023E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6751662599DC82009023E1 /* ViewController.swift */; };
 		0F67516A2599DC82009023E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6751682599DC82009023E1 /* Main.storyboard */; };
 		0F67516C2599DC84009023E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67516B2599DC84009023E1 /* Assets.xcassets */; };
 		0F67516F2599DC84009023E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67516D2599DC84009023E1 /* LaunchScreen.storyboard */; };
+		0F67517E2599DCD4009023E1 /* JPEG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6751782599DCD3009023E1 /* JPEG.swift */; };
+		0F67517F2599DCD4009023E1 /* AssetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6751792599DCD3009023E1 /* AssetSelectionViewController.swift */; };
+		0F6751802599DCD4009023E1 /* QuickTimeMov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67517A2599DCD4009023E1 /* QuickTimeMov.swift */; };
+		0F6751812599DCD4009023E1 /* GIF2MP4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67517B2599DCD4009023E1 /* GIF2MP4.swift */; };
+		0F6751822599DCD4009023E1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67517C2599DCD4009023E1 /* LoadingView.swift */; };
+		0F6751832599DCD4009023E1 /* AssetEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67517D2599DCD4009023E1 /* AssetEditorViewController.swift */; };
+		983C915CD8479A6D3CCA1515 /* Pods_LivePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FD0159925468A74C8831E5 /* Pods_LivePhoto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F67515F2599DC82009023E1 /* LivePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6751622599DC82009023E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F6751642599DC82009023E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F6751662599DC82009023E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F6751692599DC82009023E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F67516B2599DC84009023E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F67516E2599DC84009023E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F6751702599DC84009023E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6751782599DCD3009023E1 /* JPEG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPEG.swift; sourceTree = "<group>"; };
+		0F6751792599DCD3009023E1 /* AssetSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetSelectionViewController.swift; sourceTree = "<group>"; };
+		0F67517A2599DCD4009023E1 /* QuickTimeMov.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTimeMov.swift; sourceTree = "<group>"; };
+		0F67517B2599DCD4009023E1 /* GIF2MP4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIF2MP4.swift; sourceTree = "<group>"; };
+		0F67517C2599DCD4009023E1 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0F67517D2599DCD4009023E1 /* AssetEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetEditorViewController.swift; sourceTree = "<group>"; };
+		5F7A4BE48EBB308797CC5846 /* Pods-LivePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePhoto.release.xcconfig"; path = "Target Support Files/Pods-LivePhoto/Pods-LivePhoto.release.xcconfig"; sourceTree = "<group>"; };
+		C3FD0159925468A74C8831E5 /* Pods_LivePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFD1C21D07202310C557639 /* Pods-LivePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePhoto.debug.xcconfig"; path = "Target Support Files/Pods-LivePhoto/Pods-LivePhoto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983C915CD8479A6D3CCA1515 /* Pods_LivePhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				0F6751612599DC82009023E1 /* LivePhoto */,
 				0F6751602599DC82009023E1 /* Products */,
+				CE0E58B7C162DF6FF527B2AD /* Pods */,
+				319DD706D3DDC9A4B64D6C25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,45 @@
 		0F6751612599DC82009023E1 /* LivePhoto */ = {
 			isa = PBXGroup;
 			children = (
+				0F6751772599DC92009023E1 /* swift */,
 				0F6751622599DC82009023E1 /* AppDelegate.swift */,
 				0F6751642599DC82009023E1 /* SceneDelegate.swift */,
-				0F6751662599DC82009023E1 /* ViewController.swift */,
 				0F6751682599DC82009023E1 /* Main.storyboard */,
 				0F67516B2599DC84009023E1 /* Assets.xcassets */,
 				0F67516D2599DC84009023E1 /* LaunchScreen.storyboard */,
 				0F6751702599DC84009023E1 /* Info.plist */,
 			);
 			path = LivePhoto;
+			sourceTree = "<group>";
+		};
+		0F6751772599DC92009023E1 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				0F67517D2599DCD4009023E1 /* AssetEditorViewController.swift */,
+				0F6751792599DCD3009023E1 /* AssetSelectionViewController.swift */,
+				0F67517B2599DCD4009023E1 /* GIF2MP4.swift */,
+				0F6751782599DCD3009023E1 /* JPEG.swift */,
+				0F67517C2599DCD4009023E1 /* LoadingView.swift */,
+				0F67517A2599DCD4009023E1 /* QuickTimeMov.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		319DD706D3DDC9A4B64D6C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3FD0159925468A74C8831E5 /* Pods_LivePhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0E58B7C162DF6FF527B2AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD1C21D07202310C557639 /* Pods-LivePhoto.debug.xcconfig */,
+				5F7A4BE48EBB308797CC5846 /* Pods-LivePhoto.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F6751732599DC84009023E1 /* Build configuration list for PBXNativeTarget "LivePhoto" */;
 			buildPhases = (
+				B9DE85230F6A6A4321A5C613 /* [CP] Check Pods Manifest.lock */,
 				0F67515B2599DC82009023E1 /* Sources */,
 				0F67515C2599DC82009023E1 /* Frameworks */,
 				0F67515D2599DC82009023E1 /* Resources */,
+				DAA305EDC41156D5A403D3D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +181,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B9DE85230F6A6A4321A5C613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivePhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA305EDC41156D5A403D3D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F67515B2599DC82009023E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F6751672599DC82009023E1 /* ViewController.swift in Sources */,
+				0F6751812599DCD4009023E1 /* GIF2MP4.swift in Sources */,
 				0F6751632599DC82009023E1 /* AppDelegate.swift in Sources */,
 				0F6751652599DC82009023E1 /* SceneDelegate.swift in Sources */,
+				0F67517F2599DCD4009023E1 /* AssetSelectionViewController.swift in Sources */,
+				0F6751822599DCD4009023E1 /* LoadingView.swift in Sources */,
+				0F67517E2599DCD4009023E1 /* JPEG.swift in Sources */,
+				0F6751802599DCD4009023E1 /* QuickTimeMov.swift in Sources */,
+				0F6751832599DCD4009023E1 /* AssetEditorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +379,7 @@
 		};
 		0F6751742599DC84009023E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFD1C21D07202310C557639 /* Pods-LivePhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +399,7 @@
 		};
 		0F6751752599DC84009023E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7A4BE48EBB308797CC5846 /* Pods-LivePhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
